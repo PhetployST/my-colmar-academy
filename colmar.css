@@ -6,7 +6,6 @@ html {
   *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
   }
   
   body {
@@ -26,7 +25,6 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* height: 24px; */
     width: 100%;
     margin: 32px 32px;
     }
@@ -346,6 +344,10 @@ html {
 }
 
 /* part2 */
+/* .ppimg {
+    display: none;
+} */
+
 .information-main-img {
     display: none;
 }
@@ -420,6 +422,21 @@ html {
 
 .thesis img {
     display: none;
+}
+
+.part4-1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.video {
+   max-width: 100%;
+    max-height: 100%;
+}
+
+.part4-2 {
+    max-width: 0%;
+    max-height: 0%;
 }
 
 }
