@@ -1,0 +1,266 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+    justify-content: center;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    }
+  
+  .navbar ul li {
+    display: inline-block;
+    align-items: right;
+    font-size: 18px;
+    margin: 0 24px 0 16px;
+    gap: 1rem;
+  }
+  
+  /* part1 */
+  .hero {
+    background-color: hsla(245, 18%, 43%, 0.29);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 32px 24px;
+  }
+  
+  .hero img {
+    max-width: 60%;
+    max-height: auto; 
+    margin: 32px 24px;
+  }
+  
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 24px; */
+    max-height: 100%;
+    max-width: 40%;
+    padding: 24px;
+  }
+  
+  .banner-content h2 {
+    font-size: 30px;
+    color: hsl(264, 12%, 26%);
+  }
+  
+  .banner-content p {
+    font-size: 15px;
+    color: hsl(264, 12%, 26%);
+  }
+  
+  .banner-bottom {
+    background-color: #4a4a4a;
+    /* width: 80%; */
+    /* height: 35px; */
+    text-align: center;
+    /* margin-bottom: 32px; */
+    font-size: 20px;
+    padding: 8px;
+  }
+  
+  
+  /* part2 */
+  .information {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 32px 24px;
+  }
+  
+  .information-main-img {
+    max-width: 60%;
+    /* max-height: auto;  */
+    margin: 32px 24px;
+  }
+  
+  .p2img {
+    width: 100%;
+    height: auto; 
+  }
+  
+  .part2-1 h2{
+    font-size: 20px;
+  }
+  
+  .part2-1 p {
+   font-size: 14px; 
+  }
+  
+  /* part2.2 :right */
+  .part2-2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 16px 24px 0 0;
+  }
+  
+  /* 1 */
+  .Orientation-date {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content2-2-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 2 */
+  .Our-Campus {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content2-2-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 3 */
+  .Ourguest {
+    display: flex;
+    flex-direction: row; 
+    background-color: hsla(264, 12%, 26%, 0.39);
+  }
+  
+  .content2-2-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ooimg ppimg qqimg {
+    maxwidth: 35%;
+    margin: 16px 16px;
+    /* justify-content: center; */
+  }
+  
+  /* part3 */
+  .course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(264, 12%, 26%, 0.14);
+    width: 100%;
+  }
+  
+  .course h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    /* margin: 0 72px 32px 72px; */
+    padding-bottom: 32px;
+    width: 90%;
+  }
+  
+  .row-1, 
+  .row-2 {
+    background-color: #eaebec;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  /* part4 */
+  .thesis {
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+  }
+  .lhh {
+    margin: 32px 32px;
+    text-align: center;
+  }
+  
+  .part4-1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 24px;
+  }
+  
+  .part4-2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 16px 24px;
+  }
+  
+  .fisma {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .fisma-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nowandthen {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nowandthen-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Footer */
+  
+  footer { 
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding-top: 16px;
+  }
+  
+  footer p {
+    font-size: 1vw;;
+    padding-left: 24px;
+  }
+  
+  
+  footer ul li {
+    display: inline;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: #767676;
+    padding: 16px;
+  }
