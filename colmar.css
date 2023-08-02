@@ -6,7 +6,7 @@ html {
   *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   
   body {
@@ -67,6 +67,7 @@ html {
     height: auto;
     width: 40%;
     padding: 24px;
+
   }
   
   .banner-content h2 {
@@ -270,41 +271,81 @@ html {
     padding: 16px;
   }
 
-  for dektop */
+  /* for dektop */ 
 @media (min-width:1024px) {
 .im {
     display: none;
 }
+.nav-list {
+    display: none;
+}
+
+
 }
 
   /* for phone */
 @media screen and (max-width:1023px){ 
+
+
 .navbar {
     display: flex;
     flex-direction: row;
+    height: 64px;
+    margin: 0px;
+    padding: 0px;
     }
+
+
 
 .nav-list {
     display: flex;
     flex-direction: row;
+    
 }
 
 .navbar h2 {
     display: none;
-
   }
 
+.nav-list-tex {
+    display: none;
+}
+
+/* part1 */
 .hero {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    margin: 32px 24px;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 0; */
 }
 
+.banner-content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+
+.banner-content h2 {
+    padding-bottom: 32px;
+}
+
+.banner-content p {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0 0;
+}
+
+/* part2 */
 .information-main-img {
     display: none;
 }
@@ -314,7 +355,15 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+
+}
+
+.Orientation-date img {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .Our-Campus {
@@ -322,7 +371,9 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 16px;
 }
 
 .Ourguest {
@@ -330,7 +381,10 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+    
 }
 
 .course img {
