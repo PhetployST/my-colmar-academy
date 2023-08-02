@@ -49,19 +49,23 @@ html {
     margin: 32px 24px;
   }
   
-  .hero img {
-    max-width: 60%;
-    max-height: auto; 
-    margin: 32px 24px;
+  .banner-img {
+   width: 60%;
+   max-height: auto; 
+   margin: 32px 24px 0 0;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
   }
+
   
   .banner-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* margin: 24px; */
-    max-height: 100%;
-    max-width: 40%;
+    height: auto;
+    width: 40%;
     padding: 24px;
   }
   
@@ -266,3 +270,102 @@ html {
     padding: 16px;
   }
 
+  for dektop */
+@media (min-width:1024px) {
+.im {
+    display: none;
+}
+}
+
+  /* for phone */
+@media screen and (max-width:1023px){ 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    }
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar h2 {
+    display: none;
+
+  }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 32px 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.information-main-img {
+    display: none;
+}
+
+.Orientation-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.Our-Campus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.Ourguest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.course img {
+    display: none;
+}
+
+.course p {
+    display: none;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis h3 {
+    display: none;
+}
+
+.thesis p {
+    display: none;
+}
+
+.thesis img {
+    display: none;
+}
+
+}
